@@ -1,9 +1,10 @@
-import React from "react";
+
 import { Input, Button, Icon, Header } from "semantic-ui-react";
 import { useLocateCep } from "../../providers/CepProvider";
 
 const Search = () => {
   const { cepNumber, setCepNumber, handleSearch } = useLocateCep();
+  
   return (
     <>
       <Header as="h2" icon>
